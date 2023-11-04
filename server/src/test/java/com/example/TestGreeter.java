@@ -7,7 +7,7 @@ import static org.junit.Assert.assertThat;
 
 public class TestGreeter {
 
-  private Greeter greeter;
+  public Greeter greeter;
 
   @Before
   public void setUp() {
