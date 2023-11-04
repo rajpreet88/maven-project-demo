@@ -5,7 +5,7 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.number.OrderingComparison.greaterThan;
 import static org.junit.Assert.assertThat;
 
-public class TestGreeter {
+public class TestGreeter extends Greeter {
 
   public Greeter greeter;
 
